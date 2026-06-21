@@ -1,4 +1,4 @@
-ifndef BLOOM_H
+#ifndef BLOOM_H
 #define BLOOM_H
 #include <stdbool.h>
 #include <stdio.h>
