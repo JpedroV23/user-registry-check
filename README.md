@@ -1,6 +1,6 @@
 #  Sistema de Verificação de Cadastro com Hash Table e Bloom Filter
 
-Trabalho Final — Estruturas de Dados  
+Trabalho Final — Laboratório de Estruturas de Dados II
 Implementação de um sistema eficiente de verificação de cadastro de usuários combinando **Tabela Hash** e **Filtro de Bloom**, com interface gráfica construída com [Raylib](https://www.raylib.com/).
 
 ---
