@@ -101,7 +101,7 @@ cd user-registry-check/src
 Dentro da pasta `src/`, execute:
 
 ```bash
-gcc main.c bloom.c hash.c -o experimento_bloom -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+gcc main.c bloom.c hash.c -o sistema_bloom -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ```
 
 ### Execução
