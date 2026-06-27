@@ -40,6 +40,8 @@ Consulta → Filtro de Bloom
 
 ```
 projeto/
+├── assets/
+│   └── calibri.ttf # Fonte utilizada na interface gráfica
 │
 ├── src/
 │   ├── main.c        # Interface gráfica e lógica principal
@@ -52,7 +54,10 @@ projeto/
 │   ├── usuarios_1k.txt
 │   ├── usuarios_10k.txt
 │   └── usuarios_100k.txt
-│
+|
+├── testes/
+│   └── relatorio.pdf # Relatório dos resultados do projeto
+|
 └── README.md
 ```
 
@@ -80,6 +85,11 @@ sudo apt install gcc make libraylib-dev
 > make PLATFORM=PLATFORM_DESKTOP
 > sudo make install
 > ```
+
+### Clonar repositório
+```bash
+git clone https://github.com/JpedroV23/user-registry-check.git
+```
 
 ### Compilação
 
