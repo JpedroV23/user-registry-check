@@ -93,10 +93,15 @@ git clone https://github.com/JpedroV23/user-registry-check.git
 
 ### Compilação
 
+Após clonado, vá para o `src` do repositório
+```bash
+cd user-registry-check/src
+```
+
 Dentro da pasta `src/`, execute:
 
 ```bash
-gcc main.c hash.c bloom.c -o sistema_bloom -lraylib -lm -lpthread -ldl
+gcc main.c bloom.c hash.c -o experimento_bloom -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ```
 
 ### Execução
