@@ -73,18 +73,10 @@ Você precisará do GCC e da biblioteca **Raylib** instalados.
 
 ```bash
 sudo apt update
-sudo apt install gcc make libraylib-dev
 ```
-
-> Caso `libraylib-dev` não esteja disponível no seu repositório, instale manualmente:
->
-> ```bash
-> sudo apt install libgl1-mesa-dev libglu1-mesa-dev libx11-dev libxrandr-dev libxi-dev libxcursor-dev libxinerama-dev
-> git clone https://github.com/raysan5/raylib.git
-> cd raylib/src
-> make PLATFORM=PLATFORM_DESKTOP
-> sudo make install
-> ```
+```bash
+sudo apt install build-essential libraylib-dev
+```
 
 ### Clonar repositório
 ```bash
