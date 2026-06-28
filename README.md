@@ -69,7 +69,8 @@ projeto/
 
 Você precisará do GCC e da biblioteca **Raylib** instalados.
 
-**Instalando as dependências (Ubuntu/Debian):**
+**Instalando as dependências**
+**Opção #1 (Mint / Algumas distribuições Debian):**
 
 ```bash
 sudo apt update
@@ -77,8 +78,21 @@ sudo apt update
 ```bash
 sudo apt install build-essential libraylib-dev
 ```
+**Opção #2 (Ubuntu)**
+```bash
+sudo apt update
+sudo apt install -y build-essential git cmake libasound2-dev mesa-common-dev libx11-dev libxrandr-dev libxi-dev xorg-dev libgl1-mesa-dev libglu1-mesa-dev
+```
+```bash
+git clone [https://github.com/raysan5/raylib.git](https://github.com/raysan5/raylib.git) raylib
+cd raylib/src/
+make PLATFORM=PLATFORM_DESKTOP
+sudo make install
+cd ../../
+```
 
 ### Clonar repositório
+
 ```bash
 git clone https://github.com/JpedroV23/user-registry-check.git
 ```
