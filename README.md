@@ -187,8 +187,10 @@ djskalsa297
 fjkldsaf881
 ...
 ```
-
 Você pode também carregar arquivos próprios, desde que respeitem esse formato.
+
+### Exemplo de compilação:
+<img width="1041" height="623" alt="2026-06-28_19-12" src="https://github.com/user-attachments/assets/e1b914d4-1301-48e8-ba60-9717527a5f0d" />
 
 ---
 
